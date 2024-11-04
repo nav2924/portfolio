@@ -32,7 +32,7 @@ export const projectsData = [
     tools: ["React", "Node.js", "Express", "MongoDB", "MUI", "CSS"],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://logoforge.vercel.app/",
     image: travel, // Use a relevant image for this project
   },
   {
@@ -43,7 +43,7 @@ export const projectsData = [
     tools: ["Next.js", "React", "CSS", "AWS"],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://evo-website.vercel.app/",
     image: realEstate, // Use a relevant image for this project
   },
   {
@@ -54,7 +54,7 @@ export const projectsData = [
     tools: ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://creova.vercel.app/",
     image: ayla, // Use a relevant image for this project
   },
   {
@@ -65,7 +65,7 @@ export const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "React"],
     role: "Full Stack Developer",
     code: "",
-    demo: "",
+    demo: "https://coe-e-mobility.vercel.app/",
     image: crefin, // Use a relevant image for this project
   },
 ];
