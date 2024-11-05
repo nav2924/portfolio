@@ -35,6 +35,7 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
+      console.log("Sending request to API:", userInput);
       const res = await axios.post(
         `https://portfolio-alpha-kohl-61.vercel.app/api/contact`,
         userInput
@@ -47,11 +48,13 @@ function ContactForm() {
         message: "",
       });
     } catch (error) {
+      console.error("Error sending message:", error.response || error);
       toast.error(error?.response?.data?.message || "Failed to send message.");
     } finally {
       setIsLoading(false);
     }
   };
+  
 
   return (
     <div>
