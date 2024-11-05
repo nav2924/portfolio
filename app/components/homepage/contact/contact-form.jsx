@@ -36,7 +36,7 @@ function ContactForm() {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+        `https://portfolio-alpha-kohl-61.vercel.app/api/contact`,
         userInput
       );
 
